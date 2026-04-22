@@ -1,13 +1,14 @@
 --extra-index-url https://download.pytorch.org/whl/cu126
 
-torch
-torchvision
-torchaudio
-transformers
+torch>=2.6
+torchvision>=0.21
+torchaudio>=2.6
+transformers>=4.57
 datasets
 accelerate
 evaluate
 huggingface-hub
+safetensors
 tokenizers
 sentencepiece
 seqeval
